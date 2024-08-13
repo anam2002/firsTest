@@ -27,6 +27,6 @@ describe('Suite de pruebas de Orange HRM', () => {
   it('Dar click solo al 3er boton', () => {
     cy. visit('https://demoqa.com/buttons')
     cy.get('button').eq(3).click()
-    cy.wait(3000)
+    cy.wait(2000)
   })
 })
