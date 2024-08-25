@@ -15,5 +15,6 @@ describe('Login', () => {
       cy.get(".action-labels > span:nth-of-type(6)").click()
       cy.get(".action-labels > .label").click({ multiple: true })
       cy.get(".opacity-cover").click()
+      
     })
 })
